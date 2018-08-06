@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/*full page image */
+.bgImage{
+    background-image: url("images/bg.jpg");
+    /*image from http://content.invisioncic.com/r149629/monthly_2017_09/Jon-Bonham-Ludwig-1968-Pearl-Grey-Kit.jpg.e25f57956f73a4f7af59635ec9230520.jpg*/
+
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.keys{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+
+}
+
+.key{
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  border: 2px solid white;
+  margin: 1rem;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  transition: all 0.4s;
+
+}
+
+.sound{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.playing{
+  color: #D8C3A0;
+  border: 2px solid #D8C3A0;
+  transform: scale(1.2);
+}
