@@ -10,7 +10,6 @@ body, html {
 .bgImage{
     background-image: url("images/bg.jpg");
     /*image from http://content.invisioncic.com/r149629/monthly_2017_09/Jon-Bonham-Ludwig-1968-Pearl-Grey-Kit.jpg.e25f57956f73a4f7af59635ec9230520.jpg*/
-
     height: 100%;
     width: 100%;
     max-width: 100%;
@@ -24,7 +23,6 @@ body, html {
   flex-wrap: wrap;
   justify-content: center;
   padding: 3rem;
-
 }
 
 .key{
@@ -34,22 +32,26 @@ body, html {
   font-size: 2rem;
   padding: 1rem;
   border: 2px solid white;
+  border-radius: 2px;
   margin: 1rem;
   text-align: center;
   background-color: black;
   opacity: 0.8;
-  transition: all 0.4s;
-
+  width: 5rem;
+  height: 5rem;
+  transition: all 0.2s;
 }
 
 .sound{
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
+  color: #E1AF74;
 }
 
+/*change css on keys when pressed*/
 .playing{
-  color: #D8C3A0;
-  border: 2px solid #D8C3A0;
+  color: #E1AF74;
+  border: 2px solid #E1AF74;
   transform: scale(1.2);
 }
